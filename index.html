@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>image effect</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="frame">
+            <img src="pic.jpeg" width="480px" height="480px" id="image">
+
+            <input type="range" min="0" max="110" id="contrast" oninput="contrast()">
+            contrast
+
+            <input type="range" min="0" max="110" id="brightness" oninput="brightness()">
+            brightness
+         
+            <input type="range" min="0" max="110" id="saturate" oninput="saturate()">
+            saturate
+
+            <input type="file" id="filename" onchange="uploadFile()" > 
+            
+          
+        </div>
+    </body>
+
+</html>

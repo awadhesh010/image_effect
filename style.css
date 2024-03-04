@@ -1,0 +1,10 @@
+#frame{
+    border: 3px violet solid;
+    width: 480px;
+    margin: 20px auto;
+    background-color: azure;
+
+}
+#image{
+    background-size: cover;
+}
